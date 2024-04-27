@@ -34,7 +34,7 @@ getgenv().Settings = {
 	},
 	["FOV"] = {
 		["Enabled"] = true,
-		["Size"] = 40,
+		["Size"] = 35,
 		["Filled"] = false,
 		["Thickness"] = 0.66,
 		["Transparency"] = 0.9,
@@ -47,7 +47,7 @@ getgenv().Settings = {
 	       ["Horizontal"] = 0.185,
 	       ["Vertical"] = 0.1,
 	    },
-	    ["Smoothness"] = 0.1,
+	    ["Smoothness"] = 0.01,
 	    ["AutoPrediction"] = {
 	        ["Enabled"] = true,
 	        ["Type"] = "Normal", --//Normal, Custom

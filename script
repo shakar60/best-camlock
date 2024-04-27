@@ -1,16 +1,16 @@
 getgenv().Settings = {
-    ["Silent"] = {
-        ["Enabled"] = true,
-        ["AimPart"] = "Head",
-        ["WallCheck"] = true,
-        ["Visualize"] = true,
-        ["Prediction"] = {
-           ["Horizontal"] = 0.15,
-           ["Vertical"] = 0.05,
-        },
-        ["AutoPrediction"] = {
-            ["Enabled"] = true,
-            ["Type"] = "Normal", --//Normal, Custom
+	["Silent"] = {
+		["Enabled"] = true,
+		["AimPart"] = "HumanoidRootPart",
+		["WallCheck"] = true,
+		["Visualize"] = true,
+		["Prediction"] = {
+		   ["Horizontal"] = 0.15,
+		   ["Vertical"] = 0.05,
+		},
+	    ["AutoPrediction"] = {
+	        ["Enabled"] = true,
+	        ["Type"] = "Normal", --//Normal, Custom
            ["ping20_30"] = 0.12588,
            ["ping30_40"] = 0.11911,
            ["ping40_50"] = 0.12471,
@@ -29,28 +29,28 @@ getgenv().Settings = {
            ["ping170_180"] = 0.1872,
            ["ping180_190"] = 0.1848,
            ["ping190_200"] = 0.1865,
-        },
-        ["Mode"] = "Namecall", --index,namecal
-    },
-    ["FOV"] = {
-        ["Enabled"] = true,
-        ["Size"] = 30,
-        ["Filled"] = false,
-        ["Thickness"] = 0.66,
-        ["Transparency"] = 0.9,
-        ["Color"] = Color3.fromRGB(255,0,255),
-    },
-    ["Camlock"] = {
-        ["Enabled"] = true,
-        ["AimPart"] = "HumanoidRootPart",
-        ["Prediction"] = {
-           ["Horizontal"] = 0.185,
-           ["Vertical"] = 0.1,
-        },
-        ["Smoothness"] = 0.1,
-        ["AutoPrediction"] = {
-            ["Enabled"] = true,
-            ["Type"] = "Normal", --//Normal, Custom
+	    },
+		["Mode"] = "Namecall", --index,namecal
+	},
+	["FOV"] = {
+		["Enabled"] = true,
+		["Size"] = 35,
+		["Filled"] = false,
+		["Thickness"] = 0.66,
+		["Transparency"] = 0.9,
+		["Color"] = Color3.fromRGB(255,255,255),
+	},
+	["Camlock"] = {
+	    ["Enabled"] = true,
+	    ["AimPart"] = "HumanoidRootPart",
+	    ["Prediction"] = {
+	       ["Horizontal"] = 0.185,
+	       ["Vertical"] = 0.1,
+	    },
+	    ["Smoothness"] = 0.1,
+	    ["AutoPrediction"] = {
+	        ["Enabled"] = true,
+	        ["Type"] = "Normal", --//Normal, Custom
            ["ping20_30"] = 0.12588,
            ["ping30_40"] = 0.11911,
            ["ping40_50"] = 0.12471,
@@ -69,34 +69,34 @@ getgenv().Settings = {
            ["ping170_180"] = 0.1672,
            ["ping180_190"] = 0.1848,
            ["ping190_200"] = 0.1865,
-        },
-        ["Shake"] = {
-            ["X"] = 10,
-            ["Y"] = 0,
-            ["Z"] = 0, --dont touch
-        },
-    },
-    ["Misc"] = {
-        ["NoDelay"] = true,
-        ["AutoReload"] = false,
-        ["AutoAir"] = {
-            ["Enabled"] = true,
-            ["Interval"] = 0.5,
-        },
-        ["CMDS"] = { 
-            ["Enabled"] = true,
-            ["FOVPrefix"] = "B",
-            ["Prediction"] = "A",
-       },
-    },
-    ["Resolution"] = {
-        ["Value"] = 1,
-       },
-    ["Resolvers"] = {  --entirely not
-        ["Enabled"] = false,
-        ["AutoDetect"] = false,
-        ["Type"] = "Recalculator",
-    },
+	    },
+	    ["Shake"] = {
+	        ["X"] = 10,
+	        ["Y"] = 0,
+	        ["Z"] = 0, --dont touch
+	    },
+	},
+	["Misc"] = {
+	    ["NoDelay"] = true,
+	    ["AutoReload"] = false,
+	    ["AutoAir"] = {
+	        ["Enabled"] = true,
+	        ["Interval"] = 0.5,
+	    },
+	    ["CMDS"] = { 
+	        ["Enabled"] = false,
+	        ["FOVPrefix"] = "B",
+	        ["Prediction"] = "A",
+	   },
+	},
+	["Resolution"] = {
+	    ["Value"] = 1,
+	   },
+	["Resolvers"] = {  --entirely not
+	    ["Enabled"] = false,
+	    ["AutoDetect"] = false,
+	    ["Type"] = "Recalculator",
+	},
     ["Visuals"] = {
         ["Ambient"] = {
             ["Enabled"] = false,

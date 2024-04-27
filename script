@@ -67,12 +67,6 @@ getgenv().Settings = {
            ["ping180_190"] = 0.1848,
            ["ping190_200"] = 0.1865,
 	    },
-	    ["Shake"] = {
-	        ["X"] = 10,
-	        ["Y"] = 0,
-	        ["Z"] = 0, --dont touch
-	    },
-	},
 	["Misc"] = {
 	    ["NoDelay"] = true,
 	    ["AutoReload"] = false,
